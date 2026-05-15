@@ -43,7 +43,7 @@ Do NOT rename the file.
 2. Set low-level sleep in tools/advanced folder
 3. Run R46S\_LowLevelBoot\_Patch.sh from tools folder
 4. Wait for completion
-5. Fully power OFF the handheld using ES Quit Menu. 
+5. Fully power OFF the handheld using ES Quit Menu.
 \[DO NOT USE POWER OR RESET BUTTONS]
 6. Wait approximately 10 seconds.
 7. Perform a true cold boot test.
@@ -55,16 +55,17 @@ Do NOT rename the file.
 This tool:
 
 * backs up the current low-level boot region from the RGB30 ecosystem
-* applies the stock R46S low-level boot initialization region
-* preserves:
+* applies the stock-modified R46S low-level boot initialization region
+* preserves everything after system low-level boot initialization region
 
-  * ArkOS installation
-  * OTA support
-  * themes
-  * tools
-  * ROMs
-  * partitions
-  * user data
+
+
+The root changes:
+
+* proper resume/init state handling
+* framebuffer/power init sequencing
+* bootloader compatibility expectations between the RGB30 base and R46S hardware.
+
 
 This patch ONLY affects the earliest low-level boot region used for hardware initialization.
 
