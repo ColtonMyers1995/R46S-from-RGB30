@@ -8,7 +8,7 @@ You MUST:
 
 * use the RGB30 ArkOS image from the official ArkOS GitHub/community source
   https://mega.nz/file/vMpwnQDD#_swmli9Z2ydfUOjQPAXZjA5pXecHC5OchYEUTVuH79E
-* DO NOT change or modify the RGB30 image further before applying this fix
+* DO NOT change or modify the RGB30 image before applying this fix
 
 
 
