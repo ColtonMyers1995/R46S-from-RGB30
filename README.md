@@ -7,7 +7,7 @@ This fix is specifically for the custom R46S ArkOS setup based on the RGB30 ArkO
 You MUST:
 
 * use the RGB30 ArkOS image from the official ArkOS GitHub/community source
-https://drive.google.com/file/d/1\_rYO1qe\_T1GxZMUZdeXVP\_kLgxEJPqHl/view
+  https://mega.nz/file/vMpwnQDD#_swmli9Z2ydfUOjQPAXZjA5pXecHC5OchYEUTVuH79E
 * DO NOT change or modify the RGB30 image further before applying this fix
 
 
