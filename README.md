@@ -42,7 +42,7 @@ Do NOT rename the file.
 1. Boot the RGB30 SD in R46S/R40S console.
 2. Set low-level sleep in tools/advanced folder
 3. Run R46S\_LowLevelBoot\_Patch.sh from tools folder
-4. Wait for completion
+4. Wait for tool to finish and close itself.
 5. Fully power OFF the handheld using ES Quit Menu.
 \[DO NOT USE POWER OR RESET BUTTONS]
 6. Wait approximately 10 seconds.
