@@ -1,8 +1,8 @@
-# R46S Community ArkOS Coldboot Fix
+# R46S/R40S Community ArkOS Coldboot Fix
 
 ## IMPORTANT
 
-This fix is specifically for the custom R46S ArkOS setup based on the RGB30 ArkOS image.
+This fix is specifically for the custom R46S/R40S ArkOS setup based on the RGB30 ArkOS image.
 
 You MUST:
 
@@ -39,7 +39,7 @@ Do NOT rename the file.
 
 # INSTALLATION
 
-1. Boot the RGB30 SD in R46S console.
+1. Boot the RGB30 SD in R46S/R40S console.
 2. Set low-level sleep in tools/advanced folder
 3. Run R46S\_LowLevelBoot\_Patch.sh from tools folder
 4. Wait for completion
@@ -55,7 +55,7 @@ Do NOT rename the file.
 This tool:
 
 * backs up the current low-level boot region from the RGB30 ecosystem
-* applies the stock-modified R46S low-level boot initialization region
+* applies the stock-modified R46S/R40S low-level boot initialization region
 * preserves everything after system low-level boot initialization region
 
 
@@ -75,7 +75,7 @@ This patch ONLY affects the earliest low-level boot region used for hardware ini
 
 This fix was developed specifically for:
 
-* R46S hardware
+* R46S/R40S hardware
 * RGB30-based ArkOS adaptation builds
 * community ArkOS environments
 
